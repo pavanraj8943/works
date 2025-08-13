@@ -5,7 +5,11 @@
 .main{
     height: 90vh;
     width: 100%;
-    background-color: blueviolet;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-position: right -178px top -90px;
+    background-repeat: no-repeat;
+   /* background-size: ; */
+    /* background-color: blueviolet; */
 }
 .nav
 {
@@ -13,6 +17,7 @@
     width: 100%;
     display: flex;
 justify-content: center;
+
 /* background-color: red; */
 }
 .navimg{
@@ -23,8 +28,9 @@ justify-content: center;
     align-items: center;
 }
 .nav img{
-    width: 90px;
+    width: 110px;
     height: 30px;
+    padding-top: 20px;
 }
 .navitam {
     width: 40%;
@@ -36,7 +42,7 @@ justify-content: center;
 }
 .navitam a{
  text-decoration: none;
- color: white;
+ color: rgb(41, 39, 39);
 }
 .navbtn{
     width: 30%;
@@ -51,4 +57,53 @@ justify-content: center;
     border-radius: 30px;
     border: none;
     background-color: red;
+}
+
+.first{
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    /* background-color: red; */
+}
+.one{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: blue; */
+}
+.style{
+    width: 65%;
+    height: 40vh;
+    margin-left: 280px;
+    /* background-color: brown; */
+}
+.style h1{
+    font-size: 46px;
+    height: 20vh;
+    width: 90%;
+}
+.style p{
+    width: 80%;
+    height: 10vh;
+    font-size: 15px;
+}
+.style .bt1{
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: red;
+}
+.two{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.two img{
+    width: 60%;
+    height: 69vh;
 }
