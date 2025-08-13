@@ -1,37 +1,44 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Edu+QLD+Beginner:wght@400..700&family=Tagesschrift&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    font-family: "Be Vietnam Pro", sans-serif;
 }
-.main{
+
+.main {
     height: 90vh;
     width: 100%;
     background-image: url(./images/bg-tablet-pattern.svg);
     background-position: right -178px top -90px;
     background-repeat: no-repeat;
-   /* background-size: ; */
+    /* background-size: ; */
     /* background-color: blueviolet; */
 }
-.nav
-{
+
+.nav {
     height: 110px;
     width: 100%;
     display: flex;
-justify-content: center;
+    justify-content: center;
 
-/* background-color: red; */
+    /* background-color: red; */
 }
-.navimg{
+
+.navimg {
     width: 20%;
     height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.nav img{
+
+.nav img {
     width: 110px;
     height: 30px;
     padding-top: 20px;
 }
+
 .navitam {
     width: 40%;
     height: 110px;
@@ -40,70 +47,303 @@ justify-content: center;
     align-items: center;
     /* background-color: black; */
 }
-.navitam a{
- text-decoration: none;
- color: rgb(41, 39, 39);
+
+.navitam a {
+    text-decoration: none;
+    color: rgb(41, 39, 39);
 }
-.navbtn{
+
+.navbtn {
     width: 30%;
     height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.navbtn .navbt{
+
+.navbtn .navbt {
     width: 170px;
     height: 50px;
     border-radius: 30px;
     border: none;
+    color: aliceblue;
     background-color: red;
 }
 
-.first{
+.first {
     width: 100%;
     height: 87vh;
     display: flex;
     /* background-color: red; */
 }
-.one{
+
+.one {
     width: 40%;
     height: 100%;
     display: flex;
     /* justify-content: center; */
     align-items: center;
     /* background-color: blue; */
+
 }
-.style{
+
+.style {
     width: 65%;
     height: 40vh;
-    margin-left: 280px;
+    margin-left: 210px;
     /* background-color: brown; */
 }
-.style h1{
+
+.style h1 {
     font-size: 46px;
+
     height: 20vh;
     width: 90%;
 }
-.style p{
+
+.style p {
     width: 80%;
     height: 10vh;
     font-size: 15px;
 }
-.style .bt1{
+
+.style .bt1 {
     width: 170px;
     height: 50px;
     border-radius: 25px;
     border: none;
+    color: aliceblue;
     background-color: red;
 }
-.two{
+
+.two {
     width: 60%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
 }
-.two img{
+
+.two img {
     width: 60%;
     height: 69vh;
+}
+
+.secondmain {
+    height: 148vh;
+    width: 100%;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: left -370px bottom 190px;
+}
+
+.subsec {
+    display: flex;
+    width: 100%;
+}
+
+.secondone {
+    width: 50%;
+    height: 100%;
+    padding-top: 40px;
+    display: flex;
+}
+
+.item {
+    width: 70%;
+    height: 40vh;
+    margin-left: 210px;
+}
+
+.item h1 {
+    font-size: 30px;
+    width: 70%;
+    height: 10vh;
+}
+
+.item p {
+    font-size: 14px;
+    width: 48%;
+    height: 10vh;
+}
+
+.secondtwo {
+    width: 50%;
+    height: 60vh;
+    /* background-color: brown; */
+    padding-top: 40px;
+}
+
+.sec1 {
+    height: 34%;
+    width: 70%;
+    display: flex;
+}
+
+.secbt {
+    width: 60px;
+    height: 35px;
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+.subpara {
+    width: 90%;
+    height: 100%;
+}
+
+.subhed h1 {
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+.subhed {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.subcon {
+    width: 80%;
+    height: 20%;
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.sec2 {
+    height: 28%;
+    width: 70%;
+    display: flex;
+}
+
+.sec3 {
+    height: 28%;
+    width: 70%;
+    display: flex;
+}
+
+.third {
+    height: 60vh;
+    width: 100%;
+    margin-top: 190px;
+    /* background-color: blueviolet; */
+}
+
+.third .head {
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    gap: 10px;
+}
+
+.card1 {
+    width: 33%;
+    height: 26vh;
+    position: relative;
+    background-color: rgb(246, 242, 242);
+}
+
+.card img {
+    height: 90px;
+    width: 90px;
+    top: -50px;
+    margin-left: 225px;
+    position: absolute;
+}
+
+.card h2 {
+    font-size: 22px;
+    padding-top: 67px;
+    padding-left: 225px;
+    color: rgb(90, 89, 89);
+
+}
+
+.card p {
+    height: 40px;
+    width: 440px;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 15px;
+    color: rgb(163, 159, 157);
+}
+
+.card2 {
+    width: 33%;
+    height: 26vh;
+    position: relative;
+    background-color: rgb(246, 242, 242);
+}
+
+
+.card3 {
+    width: 33%;
+    height: 26vh;
+    position: relative;
+    background-color: rgb(246, 242, 242);
+}
+
+.third .lastbt {
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    color: aliceblue;
+    background-color: red;
+}
+
+.btn {
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.four {
+    width: 100%;
+    height: 30vh;
+    background-image: url(./images/bg-simplify-section-desktop.svg);
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.non {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.four h1 {
+    height: 80px;
+    width: 70%;
+    font-size: 50px;
+    color: rgb(209, 210, 211);
+}
+
+.four .btnon {
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    color: red;
+    background-color: white;
+}
+.footer{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.877);
 }
