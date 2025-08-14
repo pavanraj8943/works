@@ -342,8 +342,108 @@
     color: red;
     background-color: white;
 }
-.footer{
+
+.footer {
     width: 100%;
     height: 40vh;
+    display: flex;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.877);
+}
+
+.foot1 {
+    height: 100%;
+    width: 14%;
+    /* background-color: blueviolet; */
+}
+
+.new {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.new img {
+    width: 110px;
+    height: 30px;
+}
+
+.new1 {
+    width: 100%;
+    height: 60%;
+    gap: 20px;
+
+}
+
+.foot2 {
+    height: 100%;
+    width: 13%;
+    display: block;
+    align-items: center;
+    padding-top: 70px;
+    /* background-color: blueviolet; */
+}
+
+.foot2 a {
+
+    text-decoration: none;
+    color: rgb(218, 219, 219);
+}
+
+.foot3 {
+    height: 100%;
+    width: 10%;
+    display: block;
+    align-items: center;
+    padding-top: 70px;
+    /* background-color: blueviolet; */
+}
+
+.foot3 a {
+
+    text-decoration: none;
+    color: rgb(218, 219, 219);
+}
+
+.foot4 {
+    height: 100%;
+    width: 20%;
+    /* background-color: blueviolet; */
+}
+.one1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one1 .nonbt{
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(128, 125, 125);
+    background-color: white;
+}
+.one1 .nobt{
+    width: 60px;
+    height: 35px;
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+.two2{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.two2 p{
+color:rgb(128, 125, 125);
+font-size: 17px;
 }
